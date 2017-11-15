@@ -11,15 +11,18 @@
     <div>
         <label>Name</label>
         <asp:TextBox ID="txtName" runat="server" />
-        <asp:RequiredFieldValidator runat="server" ID="rfvName" ControlToValidate="txtName" ViewStateMode="Disabled" ErrorMessage="Required." />
+        <asp:RequiredFieldValidator runat="server" ID="rfvName" ControlToValidate="txtName" ViewStateMode="Disabled" ErrorMessage="Required." ValidationGroup="frmGroup1" />
+        <asp:
     </div>
     <div>
         <label>Phone</label>
         <asp:TextBox ID="txtNumber" runat="server" />
+        <asp:RequiredFieldValidator runat="server" ID="rvrNumber" ControlToValidate="txtNumber" ViewStateMode="Disabled" ErrorMessage="Required." ValidationGroup="frmGroup1" />
     </div>
     <div>
         <label>Age</label>
         <asp:TextBox ID="txtAge" runat="server" />
+        <asp:RequiredFieldValidator runat="server" ID="rvrAge" ControlToValidate="txtAge" ViewStateMode="Disabled" ErrorMessage="Required." ValidationGroup="frmGroup1" />
     </div>
     <div>
        <label>Fav Color</label>
@@ -30,6 +33,7 @@
             <asp:ListItem Text="Purple" Value="Purple" />
             <asp:ListItem Text="Yellow" Value="Yellow" />
         </asp:DropDownList>
+        <asp:RequiredFieldValidator runat="server" ID="rvrColor" ControlToValidate="ddColor" ViewStateMode="Disabled" ErrorMessage="Required." ValidationGroup="frmGroup1" />
     </div>
     <div>
         <asp:Button ID="btnSubmit" runat="server" Text="Submit Info" OnClick="btnSubmit_Click"/>

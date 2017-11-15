@@ -58,6 +58,15 @@ namespace Practice2 {
         protected global::System.Web.UI.WebControls.TextBox txtNumber;
         
         /// <summary>
+        /// rvrNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvrNumber;
+        
+        /// <summary>
         /// txtAge control.
         /// </summary>
         /// <remarks>
@@ -67,6 +76,15 @@ namespace Practice2 {
         protected global::System.Web.UI.WebControls.TextBox txtAge;
         
         /// <summary>
+        /// rvrAge control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvrAge;
+        
+        /// <summary>
         /// ddColor control.
         /// </summary>
         /// <remarks>
@@ -74,6 +92,15 @@ namespace Practice2 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddColor;
+        
+        /// <summary>
+        /// rvrColor control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvrColor;
         
         /// <summary>
         /// btnSubmit control.
